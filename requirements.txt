@@ -3,3 +3,9 @@ openai
 pdfminer.six
 AutoRAG
 datasets
+python-dotenv
+numpy
+pandas
+torch
+sentence-transformers
+tqdm
