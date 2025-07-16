@@ -21,7 +21,7 @@ This repository contains a collection of Jupyter Notebooks, each focusing on a s
 Here's a glimpse of the techniques covered:
 
 | Notebook                                      | Description                                                                                                                                                         |번역 상태|
-| :-------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------- |---------------------------------------|
+| :-------------------------------------------- | :-------------------------------------------------------------------------------------------- |---------------------------------------|
 | [1. Simple RAG](01_simple_rag.ipynb)           | A basic RAG implementation.  A great starting point!                                                                                                       |✅ 완료|
 | [2. Semantic Chunking](02_semantic_chunking.ipynb) | Splits text based on semantic similarity for more meaningful chunks.                                                                                           |✅ 완료|
 | [3. Chunk Size Selector](03_chunk_size_selector.ipynb) | Explores the impact of different chunk sizes on retrieval performance.                                                                                    |✅ 완료|
