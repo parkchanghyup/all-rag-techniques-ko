@@ -1,6 +1,6 @@
 # All RAG Techniques: A Simpler, Hands-On Approach(korea version)
 
-이 저장소는 [FareedKhan-dev/all-rag-techniques](https://github.com/FareedKhan-dev/all-rag-techniques) 프로젝트의 내용을 **한국어로 번역한 Jupyter Notebook 모음집**입니다.
+이 저장소는 [FareedKhan-dev/all-rag-techniques](https://github.com/FareedKhan-dev/all-rag-techniques) 프로젝트의 내용을 **한국어로 번역한 Jupyter Notebook Repo**입니다.
 
 ---
 
@@ -21,7 +21,7 @@ This repository contains a collection of Jupyter Notebooks, each focusing on a s
 Here's a glimpse of the techniques covered:
 
 | Notebook                                      | Description                                                                                                                                                         |번역 상태|
-| :-------------------------------------------- | :-------------------------------------------------------------------------------------------- |---------------------------------------|
+| :-------------------------------------------- | :-------------------------------------------------------------------------------------------- |--------------------------------------------------------------|
 | [1. Simple RAG](01_simple_rag.ipynb)           | A basic RAG implementation.  A great starting point!                                                                                                       |✅ 완료|
 | [2. Semantic Chunking](02_semantic_chunking.ipynb) | Splits text based on semantic similarity for more meaningful chunks.                                                                                           |✅ 완료|
 | [3. Chunk Size Selector](03_chunk_size_selector.ipynb) | Explores the impact of different chunk sizes on retrieval performance.                                                                                    |✅ 완료|
@@ -75,10 +75,11 @@ all-rag-techniques-kor/
 ├── 22_big_data_with_KG.ipynb
 ├── best_rag_finder.ipynb
 ├── requirements.txt                   <- Python dependencies
-└── data/
-    └── val.json                       <- Sample validation data (queries and answers)
-    └── AI_Information.pdf             <- A sample PDF document for testing.
-    └── attention_is_all_you_need.pdf  <- A sample PDF document for testing (for Multi-Modal RAG).
+└── data_creation/
+    └── rag_val_new_post.csv                       <- Sample validation data (queries and answers)
+    └── data_creation.ipynb                        <- Code for Generating Evaluation Data
+    └── pdf_data
+        └── (1) 2024 달라지는 ...                   <- sample txt data
 ```
 
 ## 🛠️ Getting Started
@@ -86,8 +87,8 @@ all-rag-techniques-kor/
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/FareedKhan-dev/all-rag-techniques.git
-    cd all-rag-techniques
+    git clone https://github.com/parkchanghyup/all-rag-techniques-ko.git
+    cd all-rag-techniques-ko
     ```
 
 2. **Install dependencies:**
